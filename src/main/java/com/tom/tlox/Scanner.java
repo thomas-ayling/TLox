@@ -77,6 +77,8 @@ public class Scanner {
                         if (peek() == '\n') line++;
                         advance();
                     }
+                    advance();
+                    advance();
                     return;
                 }
                 addToken(match('=') ? TokenType.SLASH_EQUAL : TokenType.SLASH);
