@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa72b5aa-87f9-4cc9-b30d-a2df1b54289c" name="Changes" comment="Added multi line comment support">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tom/tlox/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tom/tlox/Scanner.java" afterDir="false" />
+    <list default="true" id="aa72b5aa-87f9-4cc9-b30d-a2df1b54289c" name="Changes" comment="Generated Expr.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tom/tool/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tom/tool/GenerateAst.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/tom/tlox" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Run Generate AST">
+    <configuration name="Run Generate AST" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.tom.tool.GenerateAst" />
+      <module name="TLox" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/main/java/com/tom/tlox" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run TLox" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.tom.tlox.TLox" />
       <module name="TLox" />
@@ -61,6 +76,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Run TLox" />
+      <item itemvalue="Application.Run Generate AST" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,7 +94,7 @@
       <workItem from="1685718838612" duration="10000" />
       <workItem from="1685718852296" duration="11000" />
       <workItem from="1685718883646" duration="10000" />
-      <workItem from="1685718915942" duration="10144000" />
+      <workItem from="1685718915942" duration="14853000" />
     </task>
     <task id="LOCAL-00001" summary="Scanner progress">
       <created>1685951108522</created>
@@ -119,7 +138,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685953023951</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="line">
+      <created>1685961697473</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685961697473</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added AST generator helper tool">
+      <created>1685963452012</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685963452012</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Generated Expr.java">
+      <created>1685963469827</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685963469827</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +191,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Scanner progress" />
     <MESSAGE value="Added multi line comment support" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added multi line comment support" />
+    <MESSAGE value="line" />
+    <MESSAGE value="Added AST generator helper tool" />
+    <MESSAGE value="Generated Expr.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generated Expr.java" />
   </component>
 </project>
