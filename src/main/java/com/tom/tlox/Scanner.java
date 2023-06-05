@@ -60,8 +60,7 @@ public class Scanner {
             case '.' -> addToken(TokenType.DOT);
             case ';' -> addToken(TokenType.SEMICOLON);
             case '+' -> addToken(match('+') ? TokenType.PLUS_PLUS : match('=') ? TokenType.PLUS_EQUAL : TokenType.PLUS);
-            case '-' ->
-                    addToken(match('-') ? TokenType.MINUS_MINUS : match('=') ? TokenType.MINUS_EQUAL : TokenType.MINUS);
+            case '-' -> addToken(match('-') ? TokenType.MINUS_MINUS : match('=') ? TokenType.MINUS_EQUAL : TokenType.MINUS);
             case '*' -> addToken(match('*') ? TokenType.STAR_STAR : match('=') ? TokenType.STAR_EQUAL : TokenType.STAR);
             case '!' -> addToken(match('=') ? TokenType.BANG_EQUAL : TokenType.BANG);
             case '=' -> addToken(match('=') ? TokenType.EQUAL_EQUAL : TokenType.EQUAL);

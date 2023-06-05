@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa72b5aa-87f9-4cc9-b30d-a2df1b54289c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tom/tlox/Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tom/tlox/TLox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tom/tlox/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tom/tlox/TokenType.java" afterDir="false" />
+    <list default="true" id="aa72b5aa-87f9-4cc9-b30d-a2df1b54289c" name="Changes" comment="Added multi line comment support">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tom/tlox/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tom/tlox/Scanner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
@@ -48,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "challenges",
     "last_opened_file_path": "/Users/tayling/Documents/Projects/TLox",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -80,8 +75,51 @@
       <workItem from="1685718838612" duration="10000" />
       <workItem from="1685718852296" duration="11000" />
       <workItem from="1685718883646" duration="10000" />
-      <workItem from="1685718915942" duration="6691000" />
+      <workItem from="1685718915942" duration="10144000" />
     </task>
+    <task id="LOCAL-00001" summary="Scanner progress">
+      <created>1685951108522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685951108522</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Scanner progress">
+      <created>1685951394948</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685951394948</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Scanner progress">
+      <created>1685951438928</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685951438928</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Scanner progress">
+      <created>1685952986040</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685952986040</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Scanner progress">
+      <created>1685953009289</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685953009289</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added multi line comment support">
+      <created>1685953023951</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685953023951</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,10 +130,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Scanner progress" />
+    <MESSAGE value="Added multi line comment support" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added multi line comment support" />
   </component>
 </project>
