@@ -71,9 +71,16 @@ public class Scanner {
                 if (match('/')) {
                     // Skip the rest of the line
                     while (peek() != '\n' && !isAtEnd()) advance();
-                } else {
-                    addToken(match('=') ? TokenType.SLASH_EQUAL : TokenType.SLASH);
+                    return;
                 }
+                if (match('*')) {
+                    while (peek() != '*' && peekNext() != '/') {
+                        if (peek() == '\n') line++;
+                        advance();
+                    }
+                    return;
+                }
+                addToken(match('=') ? TokenType.SLASH_EQUAL : TokenType.SLASH);
             }
             case ' ', '\r', '\t' -> {
             }
