@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa72b5aa-87f9-4cc9-b30d-a2df1b54289c" name="Changes" comment="Generated Expr.java">
+    <list default="true" id="aa72b5aa-87f9-4cc9-b30d-a2df1b54289c" name="Changes" comment="Working on Interpreter.java. Currently on chapter 7.2.5 of the book">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tom/tlox/Interpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tom/tlox/Parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tom/tool/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tom/tool/GenerateAst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tom/tlox/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tom/tlox/Expr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tom/tlox/TLox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tom/tlox/TLox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "challenges",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/tayling/Documents/Projects/TLox",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,7 +62,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/tom/tlox" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Run Generate AST">
+  <component name="RunManager" selected="Application.Run TLox">
     <configuration name="Run Generate AST" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.tom.tool.GenerateAst" />
       <module name="TLox" />
@@ -159,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685963469827</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updated Expr">
+      <created>1686042609067</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686042609067</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +204,8 @@
     <MESSAGE value="line" />
     <MESSAGE value="Added AST generator helper tool" />
     <MESSAGE value="Generated Expr.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generated Expr.java" />
+    <MESSAGE value="Updated Expr" />
+    <MESSAGE value="Working on Interpreter.java. Currently on chapter 7.2.5 of the book" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on Interpreter.java. Currently on chapter 7.2.5 of the book" />
   </component>
 </project>

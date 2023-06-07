@@ -1,9 +1,5 @@
 package com.tom.tlox;
 
-
-/**
- * @see com.tom.tool.GenerateAst
- */
 abstract class Expr {
     abstract <R> R accept(Visitor<R> visitor);
 
