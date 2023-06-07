@@ -59,6 +59,7 @@ public class Scanner {
             case ',' -> addToken(TokenType.COMMA);
             case '.' -> addToken(TokenType.DOT);
             case ';' -> addToken(TokenType.SEMICOLON);
+            case '%' -> addToken(TokenType.PERCENT);
             case '+' -> addToken(match('+') ? TokenType.PLUS_PLUS : match('=') ? TokenType.PLUS_EQUAL : TokenType.PLUS);
             case '-' -> addToken(match('-') ? TokenType.MINUS_MINUS : match('=') ? TokenType.MINUS_EQUAL : TokenType.MINUS);
             case '*' -> addToken(match('*') ? TokenType.STAR_STAR : match('=') ? TokenType.STAR_EQUAL : TokenType.STAR);
@@ -72,7 +73,7 @@ public class Scanner {
                     while (peek() != '\n' && !isAtEnd()) advance();
                     return;
                 }
-                addToken(match('=') ? TokenType.SLASH_EQUAL : TokenType.SLASH);
+                addToken(match('=') ? TokenType.SLASH_EQUAL : match('\\') ? TokenType.SLASH_BACKSLASH : TokenType.SLASH);
             }
             case ' ', '\r', '\t' -> {
             }
