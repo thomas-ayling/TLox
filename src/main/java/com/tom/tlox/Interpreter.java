@@ -45,7 +45,13 @@ public class Interpreter implements Expr.Visitor<Object> {
                 if (left instanceof String && right instanceof String) {
                     return left + (String) right;
                 }
-                throw new RuntimeError(expr.operator, "Operands must be two numbers or two strings.");
+                if (left instanceof String) {
+                    return left + stringify(right);
+                }
+                if (right instanceof String) {
+                    return stringify(left) + right;
+                }
+                throw new RuntimeError(expr.operator, "Addition is not possible here.");
             }
             case SLASH -> {
                 checkNumberOperands(expr.operator, left, right);
