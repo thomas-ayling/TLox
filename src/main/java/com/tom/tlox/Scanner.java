@@ -118,10 +118,9 @@ public class Scanner {
 
     private void string() {
         while (peek() != '"' && !isAtEnd()) {
-            if (peek() == '\n') {
-                line++;
-                advance();
-            }
+            if (peek() == '\n') line++;
+            advance();
+
         }
 
         if (isAtEnd()) {
