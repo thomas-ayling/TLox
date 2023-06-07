@@ -79,20 +79,6 @@ public class Parser {
             return new Expr.Unary(operator, right);
         }
 
-        // We can recognise the increment and decrement tokens at this point but not sure whether they work correctly as following expressions are not considered
-
-        if ((peek().type == TokenType.PLUS_PLUS || peek().type == TokenType.MINUS_MINUS) && peekNext().type == TokenType.IDENTIFIER) {
-            Token operator = advance();
-            Expr right = new Expr.Literal(advance());
-            return new Expr.Unary(operator, right);
-        }
-
-        if (peek().type == TokenType.IDENTIFIER && (peekNext().type == TokenType.PLUS_PLUS || peekNext().type == TokenType.MINUS_MINUS)) {
-            Expr right = new Expr.Literal(advance());
-            Token operator = advance();
-            return new Expr.Unary(operator, right);
-        }
-
         return primary();
     }
 
